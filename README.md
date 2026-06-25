@@ -47,14 +47,14 @@ uv run pytest
 
 ```
 .
-├── src/app/
-│   ├── api/v1/endpoints/   # route handlers
-│   ├── core/               # config, shared utilities
+├── app/
+│   ├── data/               # data loading and processing utilities
 │   ├── db/                 # database connection & schemas
 │   ├── models/             # ORM models (if needed)
-│   ├── schemas/            # Pydantic request/response models
+│   ├── routes/             # route handlers
 │   ├── services/           # business logic
 │   └── main.py             # app entrypoint
+├── notebooks/              # Jupyter notebooks — exploration & analysis
 ├── tests/
 │   ├── unit/
 │   └── integration/
