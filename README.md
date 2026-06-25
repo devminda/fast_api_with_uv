@@ -1,8 +1,5 @@
 # TODO: Project Name
 
-[![CI](https://github.com/TODO-org/TODO-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/TODO-org/TODO-repo/actions/workflows/ci.yml)
-[![Docs](https://github.com/TODO-org/TODO-repo/actions/workflows/docs.yml/badge.svg)](https://TODO-org.github.io/TODO-repo/)
-
 TODO: project description.
 
 📖 **[Full documentation →](https://TODO-org.github.io/TODO-repo/)**
