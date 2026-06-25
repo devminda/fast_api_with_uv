@@ -15,7 +15,10 @@ async def client() -> AsyncClient:  # type: ignore[misc]
 
 
 async def test_create_and_get_item(client: AsyncClient) -> None:
-    response = await client.post("/api/v1/items/", json={"name": "test", "description": "a test item"})
+    response = await client.post(
+        "/api/v1/items/",
+        json={"name": "test", "description": "a test item"},
+    )
     assert response.status_code == 201
     data = response.json()
     assert data["name"] == "test"
