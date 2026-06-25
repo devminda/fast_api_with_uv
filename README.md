@@ -1,6 +1,5 @@
 # TODO: Project Name
 
-
 TODO: project description.
 
 📖 **[Full documentation →](https://TODO-org.github.io/TODO-repo/)**
