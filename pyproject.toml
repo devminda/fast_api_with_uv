@@ -57,7 +57,7 @@ plugins = ["pydantic.mypy"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 asyncio_mode = "auto"
-addopts = "--cov=src --cov-report=term-missing --cov-fail-under=70"
+addopts = "--cov=app --cov-report=term-missing --cov-fail-under=70"
 
 # ── ruff ──────────────────────────────────────────────────────────────────────
 [tool.ruff]
