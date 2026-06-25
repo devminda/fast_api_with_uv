@@ -1,7 +1,13 @@
-# Ignore Python cache and virtual env
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-env/
-venv/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+site/
+.env         # never commit secrets
+*.log
